@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model files (often large — store in GCS/S3 instead)
+*.pkl
+*.pickle
+*.joblib
+
+# Uploaded datasets (user data — never commit)
+uploads/
+sample_data/*.csv
+
+# PDF reports (generated at runtime)
+*.pdf
+
+# Test output
+.pytest_cache/
+htmlcov/
+.coverage
